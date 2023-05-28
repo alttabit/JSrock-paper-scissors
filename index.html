@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon | Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicons/rock.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <span class="player-score">You: 0</span>
+        <span class="result"></span>
+        <span class="pc-score">PC: 0</span>
+      </header>
+      <main class="main">
+        <h1 class="heading">Rock Paper Scissors</h1>
+        <section class="options">
+          <div class="option">
+            <img
+              data-option="rock"
+              src="./images/rock.png"
+              alt="Rock"
+              width="304"
+              height="268"
+            />
+            <button data-option="rock">Rock</button>
+          </div>
+          <div class="option">
+            <img
+              data-option="paper"
+              src="./images/paper.png"
+              alt="Paper"
+              width="304"
+              height="268"
+            />
+            <button data-option="paper">Paper</button>
+          </div>
+          <div class="option">
+            <img
+              data-option="scissors"
+              src="./images/scissors.png"
+              alt="Scissors"
+              width="304"
+              height="268"
+            />
+            <button data-option="scissors">Scissors</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

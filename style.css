@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --bg-color: darkslateblue;
+  --border-radius: 1rem;
+  --draw-bg: linear-gradient(-41deg, var(--pc-bg) 50%, var(--player-bg) 50%);
+  --font-family: "Roboto", sans-serif;
+  --pc-bg: yellow;
+  --player-bg: #fff;
+  --text-color: #fff;
+  --margin-bottom: 3rem;
+}
+
+/* Generic Styling */
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  height: 100vh;
+}
+
+/* Backgrounds */
+.player-choice {
+  background: var(--player-bg);
+}
+
+.pc-choice {
+  background: var(--pc-bg);
+}
+
+.round-draw {
+  background: var(--draw-bg);
+}
